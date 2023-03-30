@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../app/routes/dashboard/general/index.tsx"],
+  "sourcesContent": ["export default function Link1(){\n    return(\n        <h2>Contenido de Seccion General</h2>\n    )\n}"],
+  "mappings": ";;;;;;AAEQ;AAFO,SAAR,QAAwB;AAC3B,SACI,mDAAC,QAAG,4CAAJ;AAAA;AAAA;AAAA;AAAA,SAAgC;AAExC;",
+  "names": []
+}

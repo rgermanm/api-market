@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../app/routes/dashboard/general/version-history.tsx"],
+  "sourcesContent": ["export default function VersionHistory(){\n    return(\n        <h2>Version History</h2>\n    )\n}"],
+  "mappings": ";;;;;;AAEQ;AAFO,SAAR,iBAAiC;AACpC,SACI,mDAAC,QAAG,+BAAJ;AAAA;AAAA;AAAA;AAAA,SAAmB;AAE3B;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.tsx"],
+  "sourcesContent": ["import { Link } from \"@remix-run/react\";\n\nexport default function Index() {\n  return (\n    <div style={{ fontFamily: \"system-ui, sans-serif\", lineHeight: \"1.4\", margin: \"auto\", height: (\"100vh\") }}>\n      <h2 style={{ textAlign: \"center\", }}>Galicia Api Market</h2>\n      <Link prefetch=\"intent\" to=\"/dashboard\" style={{ textDecoration: \"none\", color: \"#000\", textAlign: \"center\" }}>\n        <h3>Ingresar</h3>\n      </Link>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAKM;AAHS,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,OAAO,EAAE,YAAY,yBAAyB,YAAY,OAAO,QAAQ,QAAQ,QAAS,QAAS,GACtG;AAAA,uDAAC,QAAG,OAAO,EAAE,WAAW,SAAU,GAAG,kCAArC;AAAA;AAAA;AAAA;AAAA,WAAuD;AAAA,IACvD,mDAAC,QAAK,UAAS,UAAS,IAAG,cAAa,OAAO,EAAE,gBAAgB,QAAQ,OAAO,QAAQ,WAAW,SAAS,GAC1G,6DAAC,QAAG,wBAAJ;AAAA;AAAA;AAAA;AAAA,WAAY,KADd;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAJF;AAAA;AAAA;AAAA;AAAA,SAKA;AAEJ;",
+  "names": []
+}

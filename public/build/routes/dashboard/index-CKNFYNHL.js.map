@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["empty-module:../../helpers/readData.server", "../../../../app/routes/dashboard/index.tsx"],
+  "sourcesContent": ["module.exports = {};", "import { useLoaderData } from '@remix-run/react';\nimport { mdReader } from '../../helpers/readData.server';\n\nexport async function loader() {\n  const launchpadDescription = await mdReader('launchpadDescription.md');\n  return { launchpadDescription };\n}\n\n\nexport default function DashboardMain(){\n    const { launchpadDescription } = useLoaderData();\n    console.log(launchpadDescription)\n    \n    return(\n        <div style={{flexDirection:\"column\", width:\"70%\"}}>\n        <h1>Contenido principal del dashboard</h1>\n        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic magnam eum expedita dicta maxime nostrum eligendi cum dolorem, voluptates culpa quis, sint quam magni sit ipsam. Assumenda, velit animi!</p>\n        </div>\n    )\n}"],
+  "mappings": ";;;;;;;;;;AAAA;AAAA;AAAA,WAAO,UAAU,CAAC;AAAA;AAAA;;;ACClB,sBAAyB;AAcjB;AANO,SAAR,gBAAgC;AACnC,QAAM,EAAE,qBAAqB,IAAI,cAAc;AAC/C,UAAQ,IAAI,oBAAoB;AAEhC,SACI,mDAAC,SAAI,OAAO,EAAC,eAAc,UAAU,OAAM,MAAK,GAChD;AAAA,uDAAC,QAAG,iDAAJ;AAAA;AAAA;AAAA;AAAA,WAAqC;AAAA,IACrC,mDAAC,OAAE,2NAAH;AAAA;AAAA;AAAA;AAAA,WAA8M;AAAA,OAF9M;AAAA;AAAA;AAAA;AAAA,SAGA;AAER;",
+  "names": []
+}

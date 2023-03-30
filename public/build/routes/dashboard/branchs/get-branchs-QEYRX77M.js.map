@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../app/routes/dashboard/branchs/get-branchs.tsx"],
+  "sourcesContent": ["export default function GetBranchs(){\n    return(\n        <h2>Get/Branchs</h2>\n    )\n}"],
+  "mappings": ";;;;;;AAEQ;AAFO,SAAR,aAA6B;AAChC,SACI,mDAAC,QAAG,2BAAJ;AAAA;AAAA;AAAA;AAAA,SAAe;AAEvB;",
+  "names": []
+}

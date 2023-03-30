@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../app/routes/dashboard/branchs/index.tsx"],
+  "sourcesContent": ["export default function Link2(){\n    return(\n        <h2>Contenido general Branchs</h2>\n    )\n}"],
+  "mappings": ";;;;;;AAEQ;AAFO,SAAR,QAAwB;AAC3B,SACI,mDAAC,QAAG,yCAAJ;AAAA;AAAA;AAAA;AAAA,SAA6B;AAErC;",
+  "names": []
+}
